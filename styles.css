@@ -1,0 +1,96 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/* 标题样式 */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2E8B57;  /* 深绿色 */
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: #0066cc;  /* 蓝色 */
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+/* 联系信息样式 */
+address {
+    font-style: normal;
+    margin: 10px 0;
+}
+
+address p {
+    margin: 5px 0;
+}
+
+/* 日期和位置样式 */
+.date, .location-date {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+/* 技能部分样式 */
+#skills p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* 经验部分样式 */
+article {
+    margin-bottom: 20px;
+}
+
+article ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+article li {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-style: italic;
+    margin: 5px 0;
+}
+
+/* 链接样式 */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 技能使用总结样式 */
+.skills-used {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+/* 工作标题样式 */
+.job-title {
+    color: #2E8B57;  /* 深绿色 */
+    font-size: 1.2em;
+    margin: 5px 0 15px 0;
+} 
