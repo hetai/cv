@@ -1,96 +1,169 @@
-/* 全局样式 */
+/* 重置和基础样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    max-width: 800px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
-    line-height: 1.5;
+    padding: 40px;
+    line-height: 1.6;
+    color: #2c3e50;
+    background-color: #f8f9fa;
+}
+
+main {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* 标题样式 */
 h1 {
     font-size: 2.5em;
-    margin-bottom: 0;
-    border-bottom: 1px solid #000;
-    padding-bottom: 10px;
+    color: #34495e;
+    margin-bottom: 15px;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 h2 {
-    color: #2E8B57;  /* 深绿色 */
+    color: #2980b9;
     font-size: 1.5em;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-transform: capitalize;
+    margin: 25px 0 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #3498db;
 }
 
 h3 {
-    color: #0066cc;  /* 蓝色 */
+    color: #2c3e50;
     font-size: 1.2em;
-    margin-bottom: 5px;
+    margin: 15px 0 5px;
 }
 
 /* 联系信息样式 */
-address {
-    font-style: normal;
-    margin: 10px 0;
+.contact-info {
+    text-align: center;
+    margin: 15px 0 30px;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #7f8c8d;
 }
 
-address p {
-    margin: 5px 0;
+.contact-info span {
+    margin: 0 10px;
+    white-space: nowrap;
 }
 
 /* 日期和位置样式 */
 .date, .location-date {
-    color: #666;
+    color: #7f8c8d;
     font-size: 0.9em;
-    margin: 5px 0;
+    font-family: 'Consolas', monospace;
 }
 
 /* 技能部分样式 */
-#skills p {
-    margin: 10px 0;
-    line-height: 1.6;
+#skills {
+    margin: 25px 0;
+}
+
+.skill-group {
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 10px;
+}
+
+.skill-type {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.skill-list {
+    color: #34495e;
 }
 
 /* 经验部分样式 */
 article {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+article:hover {
+    background-color: #f8f9fa;
+    transform: translateX(5px);
 }
 
 article ul {
     margin: 10px 0;
     padding-left: 20px;
+    list-style-type: none;
 }
 
 article li {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 20px;
+}
+
+article li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #3498db;
 }
 
 .subtitle {
     font-style: italic;
+    color: #7f8c8d;
     margin: 5px 0;
 }
 
 /* 链接样式 */
 a {
-    color: #0066cc;
+    color: #3498db;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
+    color: #2980b9;
     text-decoration: underline;
 }
 
 /* 技能使用总结样式 */
 .skills-used {
-    color: #666;
-    font-size: 0.9em;
     margin-top: 10px;
+    font-family: 'Consolas', monospace;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    padding: 5px 10px;
+    background-color: #f8f9fa;
+    border-radius: 3px;
 }
 
-/* 工作标题样式 */
-.job-title {
-    color: #2E8B57;  /* 深绿色 */
-    font-size: 1.2em;
-    margin: 5px 0 15px 0;
+/* 响应式设计 */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .skill-group {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info span {
+        display: block;
+        margin: 5px 0;
+    }
 } 
