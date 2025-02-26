@@ -11,16 +11,22 @@
     <meta property="og:title" content="He Tai - Senior System Integration Engineer">
     <meta property="og:description" content="Professional CV of He Tai - Experienced in automotive software development and system integration">
     <meta property="og:type" content="profile">
-    <meta property="og:url" content="https://he.tai.com">
+    <meta property="og:url" content="https://hetai.github.io/cv/">
     
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" data-src="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" data-src="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" data-src="/favicon-16x16.png">
-    <link rel="manifest" data-src="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
     
     <!-- CSS -->
-    <link rel="stylesheet" data-src="/styles.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     
     <!-- 添加开发配置脚本 -->
     <script src="dev-config.js"></script>
@@ -31,55 +37,137 @@
     <title>He Tai - CV</title>
 </head>
 <body>
-    <main>
-        <header>
-            <h1>He Tai</h1>
-            <div class="contact-info">
-                <span>📱 +4917643865205</span> |
-                <span>📧 he.tai@outlook.com</span> |
-                <span>💼 https://www.linkedin.com/in/taihe/</span> |
-                <span>🌐 https://hetai.github.io/cv/</span> |
-                <span>📍 Lindenstrasse. 11, 71229 Leonberg, Germany</span>
-            </div>
-        </header>
+    <div class="language-switch">
+        <span class="lang-btn active">EN</span>
+        <a href="index-cn.html" class="lang-btn">中文</a>
+    </div>
 
+    <header>
+        <div class="container profile-container">
+            <div class="profile-pic">
+                <img src="picture.jpg" alt="He Tai profile picture" class="profile-image">
+            </div>
+            <div class="profile-text">
+                <p class="hello-text">Hello, I'm</p>
+                <h1>He Tai</h1>
+                <p class="job-title">Senior System Integration Engineer</p>
+                
+                <div class="cta-buttons">
+                    <a href="resume.pdf" download class="btn btn-primary">Download CV</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Info</a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/taihe/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/hetai" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
         <section id="skills">
-            <h2>Skills</h2>
-            <p>C/C++ (Intermediate), Python (Basic), Shell (Basic), Matlab/Simulink (Basic), Git, Github, Gitlab, Azure DevOps, ADTF, ROS, CANoe, CANape, CUDA, Momenta CLA, DOORS (Basic), Rhapsody (Basic), Lark(Feishu), Chinese (Native), English (Professional), German (Professional)</p>
+            <div class="section-title">
+                <h5>What I Know</h5>
+                <h2>Skills</h2>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skills-card">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <h4>Languages</h4>
+                            <p>C/C++ (Intermediate),<br>Python (Basic),<br>Shell (Basic)</p>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                            <h4>Tools</h4>
+                            <p>Git, Github,<br>Gitlab, Azure<br>DevOps, ADTF,<br>ROS</p>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <div class="skill-icon"><i class="fas fa-car"></i></div>
+                            <h4>Automotive</h4>
+                            <p>CANoe, CANape,<br>CUDA, Momenta<br>CLA</p>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                            <h4>Engineering</h4>
+                            <p>DOORS (Basic),<br>Rhapsody (Basic),<br>Matlab/Simulink<br>(Basic)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-card">
+                    <h3>Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <div class="skill-icon"><i class="fas fa-language"></i></div>
+                            <h4>Chinese</h4>
+                            <p>Native</p>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <div class="skill-icon"><i class="fas fa-language"></i></div>
+                            <h4>English</h4>
+                            <p>Professional</p>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <div class="skill-icon"><i class="fas fa-language"></i></div>
+                            <h4>German</h4>
+                            <p>Professional</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="education">
-            <h2>Education</h2>
-            <article>
-                <h3>Dresden University of Technology, Dresden, Germany - Automation, Measurement and Control</h3>
-                <p class="date">03.2012 - 04.2017</p>
-                <p>Specialized in automation and control systems</p>
-            </article>
+            <div class="section-title">
+                <h5>My Academic Background</h5>
+                <h2>Education</h2>
+            </div>
             
-            <article>
-                <h3>Technical University Dresden Institute of Advanced Studies</h3>
-                <p class="subtitle">German Language</p>
-                <p class="location-date">Dresden, Germany | 08.2011 - 02.2012</p>
-            </article>
-            
-            <article>
-                <h3>Xidian University</h3>
-                <p class="subtitle">Electronic Information Science and Technology</p>
-                <p class="location-date">Xian, China | 09.2007 - 06.2011</p>
-            </article>
+            <div class="education-container">
+                <article class="education-item">
+                    <h3>Dresden University of Technology, Dresden, Germany</h3>
+                    <p class="subtitle">Automation, Measurement and Control</p>
+                    <p class="location-date">Dresden, Germany | March 2012 - April 2017</p>
+                </article>
+                
+                <article class="education-item">
+                    <h3>Technical University Dresden Institute of Advanced Studies</h3>
+                    <p class="subtitle">German Language</p>
+                    <p class="location-date">Dresden, Germany | August 2011 - February 2012</p>
+                </article>
+                
+                <article class="education-item">
+                    <h3>Xidian University</h3>
+                    <p class="subtitle">Electronic Information Science and Technology</p>
+                    <p class="location-date">Xi'an, China | September 2007 - June 2011</p>
+                </article>
+            </div>
         </section>
 
         <section id="experience">
-            <h2>Experience</h2>
+            <div class="section-title">
+                <h5>My Professional Journey</h5>
+                <h2>Work Experience</h2>
+            </div>
             
             <article>
                 <h3>Momenta Europe GmbH, Stuttgart Region - Senior System Integration Engineer</h3>
                 <p class="date">11.2021 - 12.2024</p>
                 <ul>
                     <li>Integrated and optimized software architecture for real-time QNX/Linux systems.</li>
-                    <li>Developed a comprehensive toolchain for data tagging, monitoring, and mining for data collection campaigns in the EU and US/Canada.</li>
-                    <li>Contributed to performance iterations of ADAS functions to comply with EU regulations, such as E-NCAP.</li>
-                    <li>Developed and adapted L4 software function to adhere to German traffic rules, including right of way, traffic signs, and roundabouts.</li>
+                    <li>Developed comprehensive toolchain for data tagging, monitoring, and mining for data collection campaigns in EU and US/Canada.</li>
+                    <li>Contributed to performance iterations of ADAS functions to comply with EU regulations such as E-NCAP.</li>
+                    <li>Developed and adapted L4 software function to adhere to German traffic rules including right of way, traffic signs, and roundabouts.</li>
                 </ul>
                 <p class="skills-used">Skills: QNX/Linux, System Integration, ADAS, Software Architecture</p>
             </article>
@@ -92,7 +180,7 @@
                     <li>Worked on the Audi Customer project: Automated Valet Parking (AVP) (SAE Level-4).</li>
                     <li>Developed series software components for trajectory planning.</li>
                     <li>Implemented algorithms and tests for trajectory planning using C++/CUDA.</li>
-                    <li>Profiled and optimized CUDA code for improved runtime and compilation efficiency.</li>
+                    <li>Analyzed and optimized CUDA code to improve runtime and compilation efficiency.</li>
                 </ul>
             </article>
 
@@ -134,10 +222,124 @@
             </article>
         </section>
 
-        <section id="across-internet">
-            <h2>Across the Internet</h2>
-            <p><a href="https://www.linkedin.com/in/taihe/">LinkedIn Profile</a></p>
+        <section id="projects">
+            <div class="section-title">
+                <h5>My Project Portfolio</h5>
+                <h2>Project Experience</h2>
+            </div>
+            
+            <div class="projects-container">
+                <article class="project-item">
+                    <div class="project-header">
+                        <img src="mercedes-logo.png" alt="Mercedes-Benz Logo" class="company-logo">
+                        <h3>Mercedes-Benz Projects</h3>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-details">
+                            <ul>
+                                <li><strong>System Integration & Troubleshooting:</strong> Responsible for software architecture integration and optimization of real-time QNX/Linux systems. Worked closely with Mercedes-Benz pre-integration teams in Germany and China for software upgrades, providing sensor validation, calibration, and software adaptation for multiple vehicle models.</li>
+                                <li><strong>Data Collection & Analysis:</strong> Collected large amounts of data packages for perception optimization. Developed comprehensive toolchains for data tagging, monitoring, and mining, enabling efficient hypothesis verification through effective feedback loops between Chinese and German teams.</li>
+                                <li><strong>Performance Optimization:</strong> Drove multiple iterations of HDmap and World model software modules, ensuring CP/HNP/APA/SVS functions on MMA achieved the same or better performance levels as on ATGB.</li>
+                                <li><strong>Field Support:</strong> Provided multiple successful demonstrations for Mercedes-Benz executives, including a zero-disengagement L4 demo and several demos, resolving issues under tight timelines.</li>
+                                <li><strong>Cross-team Collaboration:</strong> Maintained code mainline integrity while adapting to vehicle-specific requirements, improving efficiency through parallel testing methods, enabling testing of multiple MPU versions in a single day.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="project-item">
+                    <div class="project-header">
+                        <img src="lotus-logo.png" alt="Lotus Logo" class="company-logo">
+                        <h3>Lotus Project</h3>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-details">
+                            <ul>
+                                <li><strong>System Support & Troubleshooting:</strong> Handled system development-related tasks, resolving DFDI-related issues within one hour, updating DFDI for Lotus vehicles in Europe, and assisting customers in better utilizing diagnostic tools.</li>
+                                <li><strong>Data Analysis & Mining:</strong> Analyzed over 400 issues and drove perception algorithm iterations. Led successful data mining tasks, identifying more than 7,000 specific scenario data packages.</li>
+                                <li><strong>Function Enhancement:</strong> Improved performance of various ADAS functions including ACC, TSI, AEB, ADB, and LKA. Led data collection activities in EU/US, acquiring over 11,000 manually recorded data packages.</li>
+                                <li><strong>Tool Development:</strong> Drove the specification, development, and deployment of manual tagging tools for data collection in the US and Canada, optimizing analysis methods through rapid iterations to meet customer needs.</li>
+                                <li><strong>North America Support:</strong> Provided technical support for customer data collection activities in North America, tracking collection volumes, checking data quality, and providing feedback to optimize collection routes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="project-item">
+                    <div class="project-header">
+                        <div class="dual-logo">
+                            <img src="audi-logo.jpg" alt="Audi Logo" class="company-logo">
+                            <img src="vw-logo.jpg" alt="Volkswagen Logo" class="company-logo">
+                        </div>
+                        <h3>Audi/Volkswagen Projects</h3>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-details">
+                            <ul>
+                                <li><strong>Software Development:</strong> Developed series components for trajectory planning for Audi AVP project (SAE Level-4), implementing algorithms using C++/CUDA and optimizing CUDA code to improve runtime efficiency.</li>
+                                <li><strong>Testing & Validation:</strong> Conducted road tests and validated implementations in ADTF. At Volkswagen Group Research, analyzed cut-in scenarios and compared LiDAR and radar sensor data.</li>
+                                <li><strong>Requirements Management:</strong> Specified requirements from ACA to long/short-range radar in DOORS, understanding OEM requirements and workflows.</li>
+                                <li><strong>Regional Adaptation:</strong> Supported China-specific ACC application and verification at Audi China, preparing and executing ACC road testing in Shanghai.</li>
+                                <li><strong>Cross-cultural Collaboration:</strong> During internship at Audi China, analyzed differences in driving behavior between Chinese and German drivers, bridging communication between development teams in Germany and China, adapting solutions to meet region-specific requirements and regulations.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-title">
+                <h5>Get In Touch</h5>
+                <h2>Contact Me</h2>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-options">
+                    <article class="contact-option">
+                        <i class="fas fa-envelope contact-option-icon"></i>
+                        <h4>Email</h4>
+                        <h5>he.tai@outlook.com</h5>
+                        <a href="mailto:he.tai@outlook.com" target="_blank">Send a message</a>
+                    </article>
+                    
+                    <article class="contact-option">
+                        <i class="fab fa-linkedin contact-option-icon"></i>
+                        <h4>LinkedIn</h4>
+                        <h5>He Tai</h5>
+                        <a href="https://www.linkedin.com/in/taihe/" target="_blank">Connect with me</a>
+                    </article>
+                    
+                    <article class="contact-option">
+                        <i class="fas fa-phone contact-option-icon"></i>
+                        <h4>Phone</h4>
+                        <h5>+4917643865205</h5>
+                        <a href="tel:+4917643865205">Call me</a>
+                    </article>
+                </div>
+            </div>
         </section>
     </main>
+    
+    <footer>
+        <a href="#" class="footer-logo">He Tai</a>
+        
+        <ul class="permalinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/taihe/" target="_blank" class="footer-social"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/hetai" target="_blank" class="footer-social"><i class="fab fa-github"></i></a>
+        </div>
+        
+        <div class="footer-copyright">
+            <small>&copy; He Tai. All rights reserved.</small>
+        </div>
+    </footer>
 </body>
 </html> 

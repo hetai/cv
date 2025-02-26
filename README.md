@@ -1,33 +1,37 @@
-# Online CV
+# Personal CV Website
 
-A single-page personal CV website built with pure HTML and CSS.
+This is my personal CV website showcasing my skills, education, work experience, and project experience. The website supports both English and Chinese languages and features a responsive design for various devices.
 
-## Preview
-Visit [https://hetai.github.io/cv/](https://hetai.github.io/cv/) to see the live version.
-
-## Features
-- Responsive design
-- Semantic HTML structure
-- Clear visual hierarchy
-- Dynamic path configuration for local development and production
-- SEO-friendly meta tags
-- Social media sharing with Open Graph tags
 
 ## Tech Stack
 - HTML5
 - CSS3
-- JavaScript (for path configuration)
+- JavaScript (basic interactions)
+- Responsive design
+- Font Awesome icons
+
+## Future Plans
+- Add a portfolio showcase
+- Implement dark mode toggle
+- Add more interactive animations
+- Optimize page loading performance
+
+## Preview
+![Desktop Preview](preview-desktop.png)
+![Mobile Preview](preview-mobile.png)
+
+## Features
+- Responsive design
+- Language switching (English/Chinese)
+- Clean and modern UI
+- SEO-friendly meta tags
+- Social media sharing with Open Graph tags
 
 ## Project Structure
-```
-cv/
-├── index.html          # Main page
-├── styles.css          # Stylesheet
-├── dev-config.js       # Development configuration
-├── site.webmanifest    # PWA configuration
-├── .nojekyll          # GitHub Pages configuration
-└── README.md          # Project documentation
-```
+- `index.html` - Main English version
+- `index-cn.html` - Chinese version
+- `styles.css` - Styling for both versions
+- `dev-config.js` - Configuration for development environment
 
 ## Local Development
 1. Clone the repository
@@ -61,5 +65,6 @@ MIT License
 ## Author
 [He Tai](https://github.com/hetai)
 
-## Reference
-This project is inspired by the [Single-Page CV project](https://roadmap.sh/projects/single-page-cv) from roadmap.sh.
+## References
+This project was inspired by:
+- [html-css-js-portfolio-tutorial-2](https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2)
