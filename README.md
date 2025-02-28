@@ -2,6 +2,7 @@
 
 This is my personal CV website showcasing my skills, education, work experience, and project experience. The website supports both English and Chinese languages and features a responsive design for various devices.
 
+**Live Demo:** [https://hetai.github.io/cv/](https://hetai.github.io/cv/)
 
 ## Tech Stack
 - HTML5
@@ -53,6 +54,8 @@ npx http-server . -p 8000
 
 ## Deployment
 The project is deployed using GitHub Pages. Changes pushed to the main branch will automatically deploy to production.
+
+**Deployed Site:** [https://hetai.github.io/cv/](https://hetai.github.io/cv/)
 
 ## Customization
 1. Update personal information in `index.html`
