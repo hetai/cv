@@ -85,13 +85,19 @@
                         <div class="skill-category">
                             <div class="skill-icon"><i class="fas fa-tools"></i></div>
                             <h4>Services & Tools</h4>
-                            <p>QNX, Linux, CUDA, CMake,<br>AWS, Git/GitHub/GitLab,<br>FastAPI, Azure DevOps, Docker,<br>SQL, MongoDB</p>
+                            <p>QNX, Linux, CUDA, CMake,<br>AWS (ECS, Fargate, RDS, S3, CloudFront),<br>Git/GitHub/GitLab, FastAPI, Docker,<br>Terraform, Ansible, GitHub Actions,<br>Grafana, Prometheus, Azure DevOps,<br>SQL, MongoDB</p>
                         </div>
-                        
+
                         <div class="skill-category">
                             <div class="skill-icon"><i class="fas fa-car"></i></div>
                             <h4>Automotive</h4>
                             <p>CANoe, CANape,<br>ADTF, ROS, AUTOSAR,<br>DOORS, Vector Tools</p>
+                        </div>
+
+                        <div class="skill-category">
+                            <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                            <h4>Entwicklungswerkzeuge</h4>
+                            <p>Cursor,<br>Claude Code</p>
                         </div>
                     </div>
                 </div>
@@ -148,12 +154,63 @@
             </div>
         </section>
 
+        <section id="certifications">
+            <div class="section-title">
+                <h5>Professionelle Weiterentwicklung</h5>
+                <h2>Zertifizierungen</h2>
+            </div>
+
+            <div class="certifications-container">
+                <article class="certification-item">
+                    <h3>Ingénieur DevOps</h3>
+                    <p class="subtitle">DataScientest Germany</p>
+                    <p class="location-date">2025</p>
+                </article>
+
+                <article class="certification-item">
+                    <h3>LLM-Anwendungsentwicklung (Prompt Engineering)</h3>
+                    <p class="subtitle">NVIDIA</p>
+                    <p class="location-date">2025</p>
+                </article>
+
+                <article class="certification-item">
+                    <h3>Einführung in Large Language Models – RAG Agents</h3>
+                    <p class="subtitle">NVIDIA</p>
+                    <p class="location-date">2025</p>
+                </article>
+
+                <article class="certification-item">
+                    <h3>Grundlagen der KI-Infrastruktur und -Operationen</h3>
+                    <p class="subtitle">NVIDIA</p>
+                    <p class="location-date">2025</p>
+                </article>
+
+                <article class="certification-item">
+                    <h3>Autonome Navigation für Flugroboter</h3>
+                    <p class="subtitle">edX</p>
+                    <p class="location-date">2015</p>
+                </article>
+            </div>
+        </section>
+
         <section id="experience">
             <div class="section-title">
                 <h5>Mein beruflicher Werdegang</h5>
                 <h2>Berufserfahrung</h2>
             </div>
-            
+
+            <article>
+                <h3>New Vision Automotive</h3>
+                <p class="subtitle">Staff System Engineer</p>
+                <p class="location-date">Stuttgart Region, Deutschland | 08.2025 - Heute</p>
+                <ul>
+                    <li>Leitete End-to-End Software- und Hardware-Lieferzyklen für das Start-of-Production (SOP) Projekt und stellte eine nahtlose funktionsübergreifende Ausführung sicher.</li>
+                    <li>Entwickelte und implementierte ein Anforderungsmanagement- und Überwachungssystem durch Integration von IBM Engineering Requirements Management DOORS mit Feishu AI-Funktionalität zur Verbesserung der Rückverfolgbarkeit.</li>
+                    <li>Leitete die Interpretation und strategische Integration komplexer Industriestandards und gesetzlicher Vorschriften und stellte vollständige Compliance während des Produktentwicklungszyklus sicher.</li>
+                </ul>
+                <p class="skills-used">Fähigkeiten: SOP-Lieferung, Anforderungsmanagement, DOORS, Standards-Compliance, Funktionsübergreifende Führung</p>
+            </article>
+
             <article>
                 <h3>Momenta Europe GmbH</h3>
                 <p class="subtitle">Senior System Integration Engineer</p>
@@ -216,8 +273,27 @@
                 <h5>Mein Projektportfolio</h5>
                 <h2>Projekterfahrung</h2>
             </div>
-            
+
             <div class="projects-container">
+                <article class="project-item">
+                    <div class="project-header">
+                        <h3>KI-gestützte ASAM OpenX Szenariogenerierungsplattform</h3>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-details">
+                            <p class="subtitle">Persönliches Projekt · 2025</p>
+                            <ul>
+                                <li><strong>Plattformdesign:</strong> Entwickelte eine Full-Stack Cloud-native Plattform zur automatisierten Generierung und Validierung von ASAM OpenSCENARIO / OpenDRIVE-Dateien über natürliche Spracheingabe für autonome Fahrzeugtestworkflows.</li>
+                                <li><strong>Cloud-Infrastruktur:</strong> Architektur der Produktionsinfrastruktur auf AWS (ECS Fargate, CloudFront, ALB, RDS PostgreSQL, S3, ECR) mit Terraform (IaC) und Ansible für Konfigurationsmanagement.</li>
+                                <li><strong>CI/CD-Pipeline:</strong> Implementierung einer GitHub Actions CI/CD-Pipeline für automatisierten Build, Containerisierung (Docker) und Deployment zu AWS ECS; überwacht mit Grafana und Prometheus.</li>
+                                <li><strong>Technologie-Stack:</strong> Backend mit FastAPI (Python) und OpenAI API-Integration; Frontend mit React/Vite; Reverse-Proxy über Nginx.</li>
+                            </ul>
+                            <p class="skills-used">Fähigkeiten: AWS, Terraform, Ansible, Docker, GitHub Actions, FastAPI, React, OpenAI API, Grafana, Prometheus</p>
+                            <p><a href="https://github.com/hetai/DS_DevOps_project" target="_blank" style="color: var(--secondary-color);">GitHub Repository →</a></p>
+                        </div>
+                    </div>
+                </article>
+
                 <article class="project-item">
                     <div class="project-header">
                         <img src="mercedes-logo.png" alt="Mercedes-Benz Logo" class="company-logo">
@@ -317,7 +393,9 @@
             <li><a href="#">Startseite</a></li>
             <li><a href="#skills">Fähigkeiten</a></li>
             <li><a href="#education">Ausbildung</a></li>
+            <li><a href="#certifications">Zertifizierungen</a></li>
             <li><a href="#experience">Erfahrung</a></li>
+            <li><a href="#projects">Projekte</a></li>
             <li><a href="#contact">Kontakt</a></li>
         </ul>
         
