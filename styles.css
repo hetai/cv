@@ -842,4 +842,49 @@ footer a {
     color: var(--accent-color);
     font-size: 0.9rem;
     margin-bottom: 1rem;
+}
+
+/* 认证证书部分样式 */
+#certifications {
+    padding: 5rem 0;
+    background: white;
+}
+
+.certifications-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.certification-item {
+    background: var(--light-color);
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: var(--transition);
+}
+
+.certification-item:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.certification-item h3 {
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.certification-item .subtitle {
+    font-weight: 600;
+    color: var(--dark-color);
+    margin-bottom: 0.5rem;
+}
+
+.certification-item .location-date {
+    color: var(--accent-color);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
 } 
