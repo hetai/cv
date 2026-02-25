@@ -189,19 +189,19 @@ h1 {
 /* 部分标题样式 */
 .section-title {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
 }
 
 .section-title h5 {
     color: var(--secondary-color);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 500;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
 }
 
 .section-title h2 {
     color: var(--dark-color);
-    font-size: 2.5rem;
+    font-size: 2rem;
     border-bottom: none;
     padding-bottom: 0;
 }
@@ -271,7 +271,7 @@ h1 {
 
 /* 经验部分 */
 #experience {
-    padding: 5rem 0;
+    padding: 3.5rem 0;
     background: #f9f9f9;
 }
 
@@ -321,22 +321,22 @@ h1 {
 
 /* 项目部分 */
 #projects {
-    padding: 5rem 0;
+    padding: 3.5rem 0;
     background-color: white;
 }
 
 .projects-container {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .project-item {
     background: var(--light-color);
-    border-radius: 2rem;
-    padding: 2rem;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     transition: var(--transition);
 }
@@ -375,7 +375,7 @@ h1 {
 
 .project-item h3 {
     color: var(--secondary-color);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 0;
 }
 
@@ -409,8 +409,8 @@ h1 {
 
 /* 经验部分样式 */
 article {
-    margin-bottom: 25px;
-    padding: 15px;
+    margin-bottom: 20px;
+    padding: 1.2rem;
     border-radius: 1rem;
     transition: var(--transition);
     background: white;
@@ -426,8 +426,8 @@ article:hover {
 
 article h3 {
     color: var(--primary-color);
-    font-size: 1.2em;
-    margin: 15px 0 5px;
+    font-size: 1.1em;
+    margin: 10px 0 4px;
 }
 
 article ul {
@@ -674,7 +674,7 @@ footer a {
 #skills {
     background-color: var(--light-color);
     color: var(--dark-color);
-    padding: 5rem 0;
+    padding: 3.5rem 0;
     margin-top: 0;
 }
 
@@ -709,25 +709,25 @@ footer a {
 
 .skills-card {
     background: white;
-    border-radius: 2rem;
-    padding: 2rem;
+    border-radius: 1.5rem;
+    padding: 1.8rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     flex: 1;
     min-width: 300px;
-    max-width: 600px;
+    max-width: 100%;
 }
 
 .skills-card h3 {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     color: var(--dark-color);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .skills-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .skill-category {
@@ -743,15 +743,15 @@ footer a {
 }
 
 .skill-category h4 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+    margin-bottom: 0.4rem;
     color: var(--dark-color);
 }
 
 .skill-category p {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: #555;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 /* 响应式调整 */
@@ -808,15 +808,15 @@ footer a {
 .education-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .education-item {
     background: var(--light-color);
-    border-radius: 2rem;
-    padding: 2rem;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     transition: var(--transition);
 }
@@ -829,7 +829,7 @@ footer a {
 .education-item h3 {
     color: var(--secondary-color);
     margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .education-item .subtitle {
@@ -851,17 +851,17 @@ footer a {
 }
 
 .certifications-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .certification-item {
     background: var(--light-color);
-    border-radius: 2rem;
-    padding: 2rem;
+    border-radius: 1rem;
+    padding: 1.2rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     transition: var(--transition);
 }
@@ -873,8 +873,8 @@ footer a {
 
 .certification-item h3 {
     color: var(--secondary-color);
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
+    font-size: 1.1rem;
 }
 
 .certification-item .subtitle {
